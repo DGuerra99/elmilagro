@@ -1,0 +1,79 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head> 
+    <title>
+        El Milagro/Informes</title>
+    </head>
+<body bgcolor=#E4EC66>
+<div class="a">
+<h1><img src="{% static 'logolib.png' %} "height="400 px" border="none" background:none></h1>
+<h2>Informes</h2>
+</div>
+
+
+<p><a href="venta"> Informe De Ventas</a> 
+    <a href="ventadet"> Informe De Ventas Con Detalle  </a>
+</p>
+
+
+<p><a href="inventario">Existencia de Productos</a>
+    <a href="inventariodef">Existencia de Productos Defectuosos</a>
+</p>
+
+<p><a href="compra"> Informe De Compras</a> 
+    <a href="compradet"> Informe De Compras Con Detalle  </a>
+</p>
+
+<style>
+	h1{
+	border: 1px;
+    padding: auto;
+    text-align: center;
+    font-size: 60px;
+    color: #0F49C8;
+
+}
+
+h2{
+	border: 2px color: #000;
+    padding: auto;
+    text-align: center;
+    font-size: 45px;
+    color: #3DCF1B;
+    background-color: #F2F9F0;
+}
+
+a {
+	margin: 10px 10px;
+padding: 10px 10px;
+justify-content: center;
+
+background-color: #CF0710; /*color botón*/
+color: #fff; /*color texto*/
+text-decoration: none;/*decoración texto*/
+text-transform: none;/*capitalización texto*/
+text-align:center;
+font-size: 30px;
+
+
+font-family: 'impact';
+border-radius: 25px;
+}
+
+a:hover {
+	text-align: center;
+	color: #CF0710;
+	background-color: #fff;
+    
+    
+}
+
+p {
+	margin: 30px 30px;
+	justify-content: center;
+	text-align:center;
+}
+</style>
+</body>
+</html>

@@ -1,0 +1,1 @@
+web: gunicorn ElCentro.wsgi --log-file -

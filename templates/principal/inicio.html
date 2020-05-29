@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head> 
+    <title>
+        El Milagro/Inicio</title>
+    </head>
+<body bgcolor=#E4EC66>
+<div class="a">
+<h1><img src="{% static 'logolib.png' %} "height="400 px" border="none" background:none></h1>
+<h2>Inicio</h2>
+</div>
+
+
+<p><a href="admin/administracion"> Administración</a></p>
+
+
+<p><a href="admin/ventas">Ventas</a></p>
+
+<p><a href="admin/compras">Compras</a></p>
+
+
+    
+
+<p>
+	<a href="informes">Imprimir Informes</a>
+</p>
+<style>
+	.dashboard #content{
+		width: auto;
+		margin-left: 3cm;
+	}
+	h1{
+	border: 1px;
+    padding: auto;
+    text-align: center;
+    font-size: 10px;
+    color: #0F49C8;
+
+}
+
+h2{
+	border: 2px color: #000;
+    padding: auto;
+    text-align: center;
+    font-size: 45px;
+    color: #3DCF1B;
+    background-color: #F2F9F0;
+}
+
+a {
+	margin: 10px 10px;
+padding: 10px 10px;
+justify-content: center;
+
+background-color: #CF0710; /*color botón*/
+color: #fff; /*color texto*/
+text-decoration: none;/*decoración texto*/
+text-transform: none;/*capitalización texto*/
+text-align:center;
+font-size: 50px;
+
+
+font-family: 'impact';
+border-radius: 25px;
+}
+.p {
+  background-image: url("logolib.png");
+}
+
+a:hover {
+	text-align: center;
+	color: #CF0710;
+	background-color: #fff;
+    
+    
+}
+
+p {
+	margin: 30px 30px;
+	justify-content: center;
+	text-align:center;
+}
+</style>
+</body>
+</html>
