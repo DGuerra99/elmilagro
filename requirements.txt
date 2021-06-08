@@ -4,7 +4,7 @@ django-excel==0.0.10
 gunicorn==20.0.4
 html5lib==1.0.1
 lml==0.0.9
-Pillow==7.1.2
+Pillow==8.2.0
 psycopg2==2.8.3
 pyexcel==0.5.15
 pyexcel-io==0.5.20
